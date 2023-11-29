@@ -1,5 +1,5 @@
 import { definePlugin } from "html-validate";
-import { MailtoAwesomeRule } from "./plugin.html-validate.mailto-awesome.mjs";
+import MailtoAwesomeRule from "./plugin.html-validate.mailto-awesome.mjs";
 
 const plugin = definePlugin({
   name: "pacific-medical-training",
